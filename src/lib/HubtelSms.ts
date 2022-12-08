@@ -10,7 +10,7 @@ import { Message } from "./interfaces/Message";
 import { QueryMessageResponse } from "./interfaces/QueryMessageResponse";
 import { CancelScheduledMessageResponse } from "./interfaces/CancelScheduledMessageResponse";
 
-const BASE_URL = "https://api.hubtel.com/v1/messages";
+const BASE_URL = "https://smsc.hubtel.com/v1/messages";
 
 export class HubtelSms {
   private headers!: object;
